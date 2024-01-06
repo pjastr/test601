@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Test repo"
+  author: pjastr
+  date: today
+  chapters:
+    - index.qmd
+    - part: "Test part"
+      chapters: 
+        - part1.qmd
+ 
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: solar
+    lang: pl
+  pdf:
+    lang: pl
+
+
+editor: visual
+
